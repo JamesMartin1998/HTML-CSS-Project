@@ -57,6 +57,8 @@ nav a {
     width: 100%;
     position: relative;
     text-align: center;
+    display:flex;
+    justify-content: center;
 }
   
 #center-heading {
