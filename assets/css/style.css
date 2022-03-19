@@ -14,3 +14,40 @@ body {
   color: black;
   background: #f7f7f7;
 }
+
+nav {
+    background: #910104;
+    height: 12vh;
+    width: 100%;
+  }
+  
+  nav ul {
+    float: right;
+    margin-right: 20px;
+  }
+  
+  nav li {
+    display: inline-block;
+    background: inherit;
+    line-height: 12vh;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+  }
+  
+  #logo {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  #logo h1 {
+    line-height: 12vh;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+  }
+
+  
