@@ -83,3 +83,52 @@ nav a {
     top: 80%;
     border: solid 2px #910104;
 }
+
+#about-section{
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+#about-section > h2{
+    text-align:center;
+    margin-top: 60px;
+    margin-bottom:30px;
+    color: #910104;
+    font-size: 2rem;
+
+}
+
+.float-left{
+    float:left;
+    width:50%;
+    text-align: center;
+}
+
+.float-right{
+    float:right;
+    width:50%;
+    text-align: center;
+}
+
+.float-left > img{
+    width:100%;
+    margin-bottom:30px;
+}
+
+.float-right > img{
+    width:100%;
+    margin-bottom:30px;
+}
+
+
+#about-section > div{
+    clear:both;
+}
+
+
+/* Review section */
+
+#review-section{
+    clear:both;
+}
