@@ -19,6 +19,7 @@ nav {
     background: #910104;
     height: 12vh;
     width: 100%;
+    overflow:hidden;
 }
   
 nav ul {
