@@ -84,6 +84,8 @@ nav a {
     border: solid 2px #910104;
 }
 
+/* About Section */
+
 #about-section{
     width:80%;
     margin-left:10%;
@@ -130,5 +132,42 @@ nav a {
 /* Review section */
 
 #review-section{
+    clear:both;
+    height:600px;
+}
+
+#review-section h2{
+    text-align:center;
+    margin-top: 60px;
+    margin-bottom:30px;
+    color: #910104;
+    font-size: 2rem;
+}
+
+#review-left{
+    width:33%;
+    background:red;
+    float:left;
+    height:300px;
+}
+
+#review-center{
+    width:33%;
+    margin: 0 auto;
+    background:blue;
+    height:300px;
+}
+
+#review-right{
+   width:33%;
+   background: green;
+   float:right;
+   height:300px;
+   
+}
+
+
+
+footer{
     clear:both;
 }
