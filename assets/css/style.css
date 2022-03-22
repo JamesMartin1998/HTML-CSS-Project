@@ -159,7 +159,7 @@ nav a {
 .review{
     width:33%;
     height:50vh;
-    background:red;
+    background:#f7f7f7;
     text-align:center;
     display:flex;
     justify-content: center;
@@ -190,34 +190,83 @@ nav a {
 #left-container h3{
     display:block;
     width:80%;
-    background:blue;
+    background:#f7f7f7;
     margin-left:60px;
+    font-size:1.5rem;
+    margin-bottom:1.3rem;
 }
 
 #left-container p{
     display:block;
     width:80%;
-    background:yellow;
+    background:#f7f7f7;
     margin-left:60px;
+    font-size:1.3rem;
+    line-height: 2rem;
 }
 
 #right-container h3{
     display:block;
     width:80%;
-    background:blue;
+    background:#f7f7f7;
     margin-right:60px;
+    font-size:1.5rem;
+    margin-bottom:1.3rem;
 }
 
 #right-container p{
     display:block;
     width:80%;
-    background:yellow;
+    background:#f7f7f7;
     margin-right:60px;
+    font-size: 1.3rem;
+    line-height: 2rem;
 }
+
+/* footer */
 
 footer{
     clear:both;
+    flex-direction: row;
+    width:100vw;
+    font-size: 1rem;
+    line-height: 2rem;
 }
+
+footer span{
+    font-weight: bold;
+}
+
+footer div{
+    width:33%;
+    height:20vh;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding:1% 2%;
+    background:#910104;
+}
+
+footer h3{
+    font-size: 1.5rem;
+}
+
+.social-networks{
+    display: flex;
+    flex-direction: row;
+}
+
+.social-networks li{
+    padding-right: 5rem;
+}
+
+.social-networks i{
+    font-size: 2rem;
+    color: black;
+}
+
+
 
 @media only screen and (max-width: 768px) {
     .reviews-container {
