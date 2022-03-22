@@ -20,6 +20,8 @@ nav {
     height: 12vh;
     width: 100%;
     overflow:hidden;
+    position:fixed;
+    z-index: 2;
 }
   
 nav ul {
@@ -54,7 +56,7 @@ nav a {
 #main-image-section div {
     background: url("../images/kimchi_fried_rice.jpg") no-repeat center center;
     background-size: cover;
-    height: 88vh;
+    height: 100vh;
     width: 100%;
     position: relative;
     text-align: center;
@@ -66,7 +68,7 @@ nav a {
     text-align: center;
     font-size: 2rem;
     position: absolute;
-    top: 5%;
+    top: 15%;
     width: 100%;
     color:rgb(255, 255, 255);
 }
