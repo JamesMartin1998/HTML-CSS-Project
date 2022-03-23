@@ -295,6 +295,56 @@ footer h3{
     font-size:2rem;
 }
 
+#bbq-section h3{
+    text-align:center;
+    color:#910104;
+    font-size:1.5rem;
+    margin-bottom:2vh;
+}
+
+.food-container > div{
+    justify-content: center;
+    align-items: center;
+    height:30vh;;
+    width:33vw;
+}
+
+.left-food{
+    margin-left:10vw;
+    background-image: url("../images/pork\ belly.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center-food{
+    margin:0 2vw 0 2vw;
+    background-image: url("../images/thin\ pork.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right-food{
+    margin-right: 10vw;
+    background-image: url("../images/galbi.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.desc-container > div{
+    justify-content: center;
+    align-items: center;
+    background: green;
+    height:10vh;;
+    width:33vw;
+}
+
+.description{
+
+}
+
 
 @media only screen and (max-width: 768px) {
     .reviews-container {
