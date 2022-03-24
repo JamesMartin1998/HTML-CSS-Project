@@ -406,6 +406,14 @@ footer h3{
     width:100%;
 }
 
+/* Reservation Page */
+
+#form-container{
+    width: 80vw;
+    height: 50vh;
+    margin: 0 10vw 0 10vw;
+    background: #d8d8d8;
+}
 
 
 
