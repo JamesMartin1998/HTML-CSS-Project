@@ -26,36 +26,47 @@
     <section>
         <div class="nav-space"></div>
         <div id="form-container">
-            <form action="http://www.simplykoreandatabase.com" method="post"> 
-                <div class="input">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required>
+            <form action="http://www.simplykoreandatabase.com" method="post">
+                <h2>Make a Reservation</h2>
+                <div class="flex flex-row">
+                    <div id="form-left-col" class="flex flex-col">
+                        <div class="input">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="input">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="input">
+                            <label for="telephone">Telephone</label>
+                            <input type="tel" id="telephone" name="telephone_number" required>
+                        </div>
+                    </div>
+                    <div id="form-right-col" class="flex flex-col">
+                        <div class="input">
+                            <label for="date">Date</label>
+                            <input type="date" id="date" name="reservation_date" required>
+                        </div>
+                        <div class="input">
+                            <label for="time">Time</label>
+                            <input type="time" id="time" name="reservation_time" required>
+                        </div>
+                        <div class="input"> 
+                            <label for="number-of-people">Number of People</label>
+                            <input type="number" id="number-of-people" name="number_of_people" required>
+                        </div>
+                    </div>
                 </div>
-                <div class="input">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="input">
-                    <label for="telephone">Telephone</label>
-                    <input type="tel" id="telephone" name="telephone_number" required>
-                </div>
-                <div class="input">
-                    <label for="date">Date</label>
-                    <input type="date" id="date" name="reservation_date" required>
-                </div>
-                <div class="input">
-                    <label for="time">Time</label>
-                    <input type="time" id="time" name="reservation_time" required>
-                </div>
-                <div class="input"> 
-                    <label for="number-of-people">Number of People</label>
-                    <input type="number" id="number-of-people" name="number_of_people" required>
-                </div>
-                <div class="input">
+
+                <div class="input" id="message-div">
                     <label for="message">Leave Us a Message</label>
                     <input type="text" id="message" name="reservation_message">
                 </div>
-                <input type="submit" value="Book Table">
+                <div id="submit-container">
+                    <input type="submit" value="Book Table">
+                </div>
+                
             </form>
         </div>
         
