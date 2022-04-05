@@ -233,6 +233,7 @@ footer{
     width:100vw;
     font-size: 1rem;
     line-height: 2rem;
+    color:white;
 }
 
 footer span{
@@ -265,7 +266,7 @@ footer h3{
 
 .social-networks i{
     font-size: 2rem;
-    color: black;
+    color:white;
 }
 
 /* Menu Page */
