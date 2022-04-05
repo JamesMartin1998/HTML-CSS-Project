@@ -490,14 +490,13 @@ form > div{
 #contact-section h2{
     font-size: 2rem;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: -2rem;
     text-align: center;
     color: #910104;
 }
 
 #contact-container{
     width:50vw;
-    background:blue;
     height:30rem;
 }
 
@@ -513,7 +512,6 @@ form > div{
 
 #contact-info-container{
     width:50vw;
-    background:orange;
     height:30rem;
 }
 
@@ -521,17 +519,14 @@ form > div{
     height: 80%;
     width:80%;
     margin-right: 10%;
-    background:red;
 }
 
 #contact-info-container > div > div{
-    background:white;
     width:100%;
     font-size: 1.3rem;
 }
 
 #contact-info-container h3{
-    text-align:center;
     font-size: 1.5rem;
     margin-top:1rem;
     margin-bottom:1rem;
