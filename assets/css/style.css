@@ -13,6 +13,7 @@ body {
     font-weight: 400;
     color: black;
     background: #f7f7f7;
+    width:100%;
 }
 
 nav {
@@ -541,8 +542,44 @@ form > div{
     line-height:2rem;
 }
 
+@media only screen and (max-width:930px){
+    #contact-section > div{
+        flex-direction: column;
+    }
+
+    #contact-container{
+        width:100%;
+    }
+
+    #contact-container > div{
+        height: 80%;
+        width:80%;
+        margin: 0%;
+    }
+
+    #contact-info-container{
+        margin-top:-5rem;
+        width:100%;
+        text-align:center;
+    }
+
+    #contact-info-container > div{
+        margin:0%;
+    }
+
+    iframe{
+        height:300px;
+    }
+}
+
+@media only screen and (max-width:550px){
+    #contact-container > div{
+        height:50%;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .reviews-container {
         flex-direction: column;
     }
-  }
+}
