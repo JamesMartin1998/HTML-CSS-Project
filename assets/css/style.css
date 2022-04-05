@@ -14,7 +14,10 @@ body {
     color: black;
     background: #f7f7f7;
     width:100%;
+    overflow-x: hidden;
 }
+
+/* Navigation Bar */
 
 nav {
     background: #910104;
@@ -53,6 +56,8 @@ nav a {
     color: rgb(255, 255, 255);
     font-weight: 600;
 }
+
+/* Main Image Section */
 
 #main-image-section div {
     background: url("../images/kimchi_fried_rice.jpg") no-repeat center center;
