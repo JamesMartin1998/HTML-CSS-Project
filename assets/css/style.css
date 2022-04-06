@@ -157,6 +157,7 @@ nav a {
 .about-container img{
     height:auto;
     width:100%;
+    border-radius: 10px;
 }
 
 #about-section h3{
@@ -288,7 +289,7 @@ nav a {
     background:#f7f7f7;
     margin-left:60px;
     font-size:1.5rem;
-    margin-bottom:1.3rem;
+    margin-bottom:0.5rem;
 }
 
 #left-container p{
@@ -306,7 +307,7 @@ nav a {
     background:#f7f7f7;
     margin-right:60px;
     font-size:1.5rem;
-    margin-bottom:1.3rem;
+    margin-bottom:0.5rem;
 }
 
 #right-container p{
