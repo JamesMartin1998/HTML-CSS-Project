@@ -229,12 +229,11 @@ nav a {
 
 #review-section{
     clear:both;
-    height:600px;
 }
 
 #review-section h2{
     text-align:center;
-    margin-top: 60px;
+    margin-top: 30px;
     margin-bottom:30px;
     color: #910104;
     font-size: 2rem;
@@ -268,7 +267,7 @@ nav a {
     align-items: center;
 }
 
-.reviews-container {
+#reviews-container {
     flex-direction: row;
     width:100vw;
 }
@@ -318,6 +317,41 @@ nav a {
     font-size: 1.3rem;
     line-height: 2rem;
 }
+
+@media only screen and (max-width:950px){
+    #reviews-container{
+        flex-direction:column;
+    }
+
+    .review{
+        width: 100%;
+    }
+
+    #right-container h3{
+        margin:0;
+    }
+
+    #right-container p{
+        margin:0;
+    }
+
+    #left-container h3{
+        margin:0;
+    }
+
+    #left-container p{
+        margin:0;
+    }
+
+    #review-section h2{
+        margin-bottom:0;
+    }
+
+    .review{
+        height:40vh;
+    }
+}
+
 
 /* footer */
 
