@@ -593,6 +593,103 @@ footer h3{
     width:100%;
 }
 
+@media only screen and (max-width:1100px){
+    #bbq-section{
+        height:calc(210vh + 3rem);
+    }
+    
+    #chicken-section{
+        height:calc(210vh + 3rem);
+    }
+
+    #other-dishes-section{
+        height:calc(210vh + 3rem);
+    }
+
+    #bbq-section > div{
+        flex-direction: column;
+    }
+
+    #chicken-section > div{
+        flex-direction: column;
+    }
+
+    #other-dishes-section > div{
+        flex-direction: column;
+    }
+
+    .food-container{
+        width:60%;
+        height: 70vh;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .food-container{
+        width:70%;
+    }
+}
+
+@media only screen and (max-width:650px){
+    #bbq-section{
+        height:calc(180vh + 3rem);
+    }
+    
+    #chicken-section{
+        height:calc(180vh + 3rem);
+    }
+
+    #other-dishes-section{
+        height:calc(180vh + 3rem);
+    }
+
+    .food-container{
+        height:60vh;
+    }
+}
+
+
+@media only screen and (max-width:600px){
+    .food-container{
+        width:80%;
+    }
+
+    #bbq-section{
+        height:calc(150vh + 3rem);
+    }
+
+    #chicken-section{
+        height:calc(150vh + 3rem);
+    }
+
+    #other-dishes-section{
+        height:calc(150vh + 3rem);
+    }
+
+    .food-container{
+        height:50vh;
+    }
+
+}
+
+@media only screen and (max-width:350px){
+    #bbq-section{
+        height:calc(120vh + 3rem);
+    }
+
+    #chicken-section{
+        height:calc(120vh + 3rem);
+    }
+
+    #other-dishes-section{
+        height:calc(120vh + 3rem);
+    }
+
+    .food-container{
+        height:40vh;
+    }
+}
+
 /* Reservation Page */
 
 #form-container{
