@@ -770,6 +770,38 @@ form > div{
     #data-container{
         flex-direction: column;
     }
+
+    #form-left-col{
+        width:100%;
+        margin-left:0%;
+        padding-left:5%;
+    }
+    
+    #form-right-col{
+        width:100%;
+        margin-right:0%;
+        padding-left:5%;
+    }
+
+    #message-div input{
+        width:95%;
+    }
+
+    #submit{
+        width:16rem;
+    }
+}
+
+@media only screen and (max-width:950px){
+    #form-container{
+        margin-top: 4rem;
+    }
+}
+
+@media only screen and (max-width:350px){
+    #submit{
+        width:12rem;
+    }
 }
 
 /* Contact Page */
