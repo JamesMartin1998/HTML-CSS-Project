@@ -693,7 +693,6 @@ footer h3{
 
 #form-container{
     width: 80vw;
-    height: 30rem;
     margin: 5vh 10vw 5vh 10vw;
     display:flex;
     flex-direction: row;
@@ -765,6 +764,12 @@ form > div{
     height:4rem;
     font-size: 1.8rem;
     border-radius:10px;
+}
+
+@media only screen and (max-width:500px){
+    #data-container{
+        flex-direction: column;
+    }
 }
 
 /* Contact Page */
