@@ -125,7 +125,6 @@ nav a {
     width: 300px;
     height: 100px;
     position: absolute;
-    top: 80%;
     border: solid 2px #910104;
 }
 
@@ -371,12 +370,16 @@ footer span{
 footer div{
     width:33%;
     height:20vh;
-    text-align:center;
+    text-align:left;
     display:flex;
-    justify-content: center;
-    align-items:center;
+    justify-content: flex-start;
+    align-items:flex-start;
     padding:1% 2%;
     background:#910104;
+}
+
+#social-container{
+    justify-content: center;
 }
 
 footer h3{
