@@ -85,8 +85,17 @@ nav a {
         height: 8vh;
     }
 
+    nav ul{
+        margin:0;
+    }
+
     nav li{
         line-height:8vh;
+    }
+
+    #logo{
+        margin:0;
+        padding:0 2px 0 2px;
     }
 
     #logo h1{
@@ -95,13 +104,72 @@ nav a {
 }
 
 @media only screen and (max-width:475px){
-    
     #logo h1{
         font-size:2.8rem;
+        text-align: center;
     }
     
     nav a{
         font-size:1.2rem;
+    }
+
+    nav li{
+        display:block;
+        text-align: center;
+    }
+
+    #links-container{
+        height:40vh;
+    }
+
+    #nav{
+        height:28vh;
+    }
+
+    #main-image-section div{
+        height:60vh;
+    }
+
+    nav li{
+        line-height:4vh;
+    }
+
+    #menu-nav-space{
+        height:28vh;
+    }
+
+    #reservation-nav-space{
+        height: 28vh;;
+    }
+
+    #contact-nav-space{
+        height:28vh;
+    }
+}
+
+@media only screen and (max-width:328px){
+    #logo-container{
+        height:16vh;
+    }
+
+    #links-container{
+        height:vh;
+    }
+
+    #nav{
+        height:34vh;
+    }
+
+    #menu-nav-space{
+        height:34vh;
+    }
+
+    #reservation-nav-space{
+        height: 34vh;
+    }
+
+    #contact-nav-space{
+        height: 34vh;
     }
 }
 
