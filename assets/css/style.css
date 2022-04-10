@@ -369,6 +369,10 @@ a.active, nav a:hover{
         width: 100%;
     }
 
+    #review-image-container{
+        height:58vh;
+    }
+
     #right-container h3{
         margin:0;
     }
@@ -390,7 +394,25 @@ a.active, nav a:hover{
     }
 
     .review{
+        height:30vh;
+    }
+}
+
+@media only screen and (max-width:584px){
+    .review{
         height:40vh;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .review{
+        height:50vh;
+    }
+}
+
+@media only screen and (max-width:314px){
+    #review-section h2{
+        margin-bottom:30px;
     }
 }
 
@@ -485,6 +507,8 @@ footer h3{
         padding-left: 1rem;
     }
 }
+
+
 
 /* Menu Page */
 
