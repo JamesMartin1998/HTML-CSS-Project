@@ -26,150 +26,92 @@ nav {
     overflow:hidden;
     position:fixed;
     z-index: 2;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
 
-#logo-container{
-    width:50%;
+label.logo{
+    color: white;
+    font-size:3rem;
+    line-height:12vh;
+    padding:0 100px;
+    font-weight: bold;
 }
 
-#links-container{
-    width:50%;
-    justify-content: flex-end;
-}
-
-nav ul {
+nav ul{
+    float:right;
     margin-right: 20px;
 }
-  
-nav li {
+
+nav ul li{
     display: inline-block;
-    background: inherit;
     line-height: 12vh;
-    margin: 0 10px;
-}
-  
-nav a {
-    color: rgb(255, 255, 255);
-    font-size: 1.4rem;
-}
-  
-#logo {
-    display: inline-block;
-    margin-left: 20px;
-}
-  
-#logo h1 {
-    line-height: 12vh;
-    font-size: 3rem;
-    color: rgb(255, 255, 255);
-    font-weight: 600;
+    margin:0 5px;
 }
 
-@media only screen and (max-width:950px){
-    #nav{
-        flex-direction: column;
-        height:16vh;
+nav ul li a{
+    color:white;
+    font-size: 1.2rem;
+}
+
+a.active, a:hover{
+    text-decoration: underline;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color:white;
+    float:right;
+    line-height:12vh;
+    margin-right: 40px;
+    cursor:pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+@media only screen and (max-width:952px){
+    label.logo{
+        font-size:30px;
+        padding-left: 50px;
     }
 
-    #logo-container{
-        width:100%;
-        display:flex;
-        justify-content: center;
-        height:8vh;
+    nav ul li a{
+        font-size: 16px;
     }
+}
 
-    #links-container{
-        width:100%;
-        justify-content: center;
-        align-items: center;
-        height: 8vh;
+@media only screen and (max-width:858px){
+    .checkbtn{
+        display:block;
     }
 
     nav ul{
-        margin:0;
-    }
-
-    nav li{
-        line-height:8vh;
-    }
-
-    #logo{
-        margin:0;
-        padding:0 2px 0 2px;
-    }
-
-    #logo h1{
-        line-height:8vh;
-    }
-}
-
-@media only screen and (max-width:475px){
-    #logo h1{
-        font-size:2.8rem;
+        position:fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(1, 137, 137);
+        top:80px;
+        left:-100%;
         text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li{
+        display:block;
+        margin:50px 0;
+        line-height:30px;
     }
     
-    nav a{
-        font-size:1.2rem;
+    nav ul li a{
+        font-size: 20px;
     }
 
-    nav li{
-        display:block;
-        text-align: center;
-    }
-
-    #links-container{
-        height:40vh;
-    }
-
-    #nav{
-        height:28vh;
-    }
-
-    #main-image-section div{
-        height:60vh;
-    }
-
-    nav li{
-        line-height:4vh;
-    }
-
-    #menu-nav-space{
-        height:28vh;
-    }
-
-    #reservation-nav-space{
-        height: 28vh;;
-    }
-
-    #contact-nav-space{
-        height:28vh;
-    }
-}
-
-@media only screen and (max-width:328px){
-    #logo-container{
-        height:16vh;
-    }
-
-    #links-container{
-        height:vh;
-    }
-
-    #nav{
-        height:34vh;
-    }
-
-    #menu-nav-space{
-        height:34vh;
-    }
-
-    #reservation-nav-space{
-        height: 34vh;
-    }
-
-    #contact-nav-space{
-        height: 34vh;
+    #check:checked ~ ul{
+        left: 0;
     }
 }
 
