@@ -11,20 +11,18 @@
 </head>
 <body>
     <header>
-        <nav id="nav" class="flex flex-row">
-            <div id="logo-container">
-                <a id="logo" href="index.html">
-                    <h1>Simply Korean</h1>
-                </a>
-            </div>
-            <div id="links-container" class="flex">
-                <ul>
-                    <li><a href="index.html">Home</a</li>
-                    <li><a href="menu.html">Menu</a></li>
-                    <li><a href="reservation.html">Reservation</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo"><a href="index.html" class="logo-link">Simply Korean</a></label>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
         </nav>
     </header>
     <div class="nav-space" id="contact-nav-space"></div>
