@@ -688,6 +688,9 @@ form > div{
     display:block;
     width:90%;
     font-size:1.2rem;
+    box-sizing: border-box;
+    padding-left:0.5rem;
+    padding-right:0.5rem;
 }
 
 #message-div{
