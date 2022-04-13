@@ -562,80 +562,61 @@ footer h3{
     margin-top:1rem;
 }
 
-#bbq-1 .food-image{
-    background-image:url(../images/pork.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#bbq-1 img{
+    height:auto;
+    width:100%;
 }
 
 #bbq-2{
     margin:0 3vw 0 3vw;
 }
 
-#bbq-2 .food-image{
-    background-image:url(../images/thin\ pork.jpeg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#bbq-2 img{
+    height:auto;
+    width:100%;
 }
 
-
-#bbq-3 .food-image{
-    background-image:url(../images/galbi.jpeg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#bbq-3 img{
+    height:auto;
+    width:100%;
 }
 
 #chicken-2{
     margin:0 3vw 0 3vw;
 }
 
-#chicken-1 .food-image{
-    background-image:url(../images/soy\ chicken.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#chicken-1 img{
+    height:auto;
+    width:100%;
 }
 
-#chicken-2 .food-image{
-    background-image:url(../images/chicken.jpeg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#chicken-2 img{
+    height:auto;
+    width:100%;
 }
 
-#chicken-3 .food-image{
-    background-image:url(../images/sweet\ chilli.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#chicken-3 img{
+    height:auto;
+    width:100%;
 }
 
 #other-2{
     margin:0 3vw 0 3vw;
 }
 
-#other-1 .food-image{
-    background-image:url(../images/bibimbap.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#other-1 img{
+    height:auto;
+    width:100%;
 }
 
-#other-2 .food-image{
-    background-image:url(../images/meat.jpeg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#other-2 img{
+    height:auto;
+    width:100%;
 }
 
-#other-3 .food-image{
-    background-image:url(../images/kimchi_fried_rice.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#other-3 img{
+    height:auto;
+    width:100%;
 }
 
 .food-desc{
@@ -645,15 +626,15 @@ footer h3{
 
 @media only screen and (max-width:1100px){
     #bbq-section{
-        height:calc(210vh + 3rem);
+        height:calc(255vh + 3rem);
     }
     
     #chicken-section{
-        height:calc(210vh + 3rem);
+        height:calc(255vh + 3rem);
     }
 
     #other-dishes-section{
-        height:calc(210vh + 3rem);
+        height:calc(255vh + 3rem);
     }
 
     #bbq-section > div{
@@ -670,7 +651,7 @@ footer h3{
 
     .food-container{
         width:60%;
-        height: 70vh;
+        height: 85vh;
     }
 }
 
@@ -698,7 +679,7 @@ footer h3{
     }
 }
 
-@media only screen and (max-width:600px){
+ @media only screen and (max-width:490px){
     .food-container{
         width:80%;
     }
@@ -718,8 +699,7 @@ footer h3{
     .food-container{
         height:50vh;
     }
-
-}
+ }
 
 @media only screen and (max-width:350px){
     #bbq-section{
@@ -851,9 +831,12 @@ form > div{
 
 /* Contact Page */
 
+#contact-section{
+    margin-top: 1rem;
+}
+
 #contact-section h2{
     font-size: 2rem;
-    margin-top: 1rem;
     margin-bottom: -2rem;
     text-align: center;
     color: #910104;
