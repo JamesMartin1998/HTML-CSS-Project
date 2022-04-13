@@ -525,28 +525,8 @@ footer h3{
 /* Menu Page */
 
 .nav-space{
-    height:12vh;
+    height:16vh;
     width:100vw;
-}
-
-#menu-section{ 
-    width:100vw;
-    height:30vh;
-    background-color: #f7f7f7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#menu-section div{
-    margin: 0 auto;
-    height:50%;
-    width:50%;
-    background:black;
-    color:white;
-    line-height:15vh;
-    text-align:center;
-    font-size:2rem;
 }
 
 .food-type-container{
@@ -624,7 +604,7 @@ footer h3{
 }
 
 #chicken-3 .food-image{
-    background-image:url(../images/soy\ chicken.jpg);
+    background-image:url(../images/sweet\ chilli.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
