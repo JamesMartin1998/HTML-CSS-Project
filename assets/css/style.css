@@ -406,6 +406,12 @@ a.active, nav a:hover{
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .reviews-container {
+        flex-direction: column;
+    }
+}
+
 @media only screen and (max-width:584px){
     .review{
         height:40vh;
@@ -767,22 +773,25 @@ form > div{
 }
 
 #contact-container{
-    width:50vw;
+    width:50%;
     height:30rem;
+    box-sizing: border-box;
 }
 
 #contact-container > div{
     height: 80%;
     width:80%;
-    margin-left: 10%;
-    background-image: url(../images/brighton.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    padding-left: 10%;
+    padding-top:10%;
+}
+
+#contact-container img{
+    width:100%;
+    height:auto;
 }
 
 #contact-info-container{
-    width:50vw;
+    width:50%;
     height:30rem;
 }
 
@@ -810,6 +819,7 @@ form > div{
 
 #contact-info-container li{
     line-height:2rem;
+    margin:0.25rem 0 0.25rem 0;
 }
 
 @media only screen and (max-width:950px){
@@ -824,13 +834,14 @@ form > div{
     }
 
     #contact-container{
-        width:100%;
+        width:80%;
+        margin: 0 auto;
     }
 
     #contact-container > div{
         height: 80%;
         width:80%;
-        margin: 0%;
+        padding: 0%;
     }
 
     #contact-info-container{
@@ -848,14 +859,44 @@ form > div{
     }
 }
 
-@media only screen and (max-width:550px){
-    #contact-container > div{
-        height:50%;
+@media only screen and (max-width:850px){
+    #contact-container{
+        width:90%;
+        margin: 0 auto;
     }
 }
 
-@media only screen and (max-width: 768px) {
-    .reviews-container {
-        flex-direction: column;
+@media only screen and (max-width:750px){
+    #contact-info-container{
+        margin-top:-8rem;
     }
 }
+
+@media only screen and (max-width:650px){
+    #contact-info-container{
+        margin-top:-10rem;
+    }
+}
+
+@media only screen and (max-width:550px){
+    #contact-info-container{
+        margin-top:-12rem;
+    }
+}
+
+@media only screen and (max-width:420px){
+    #contact-info-container{
+        margin-top:-14rem;
+    }
+
+    #contact-info-container li{
+        font-size:1.1rem;
+    }
+}
+
+@media only screen and (max-width:330px){
+    #contact-info-container{
+        margin-top:-16rem;
+    }
+}
+
