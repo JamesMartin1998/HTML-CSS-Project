@@ -525,7 +525,7 @@ footer h3{
 /* Menu Page */
 
 .nav-space{
-    height:16vh;
+    height:12vh;
     width:100vw;
 }
 
@@ -558,6 +558,9 @@ footer h3{
     align-items: center;
 }
 
+#bbq-section{
+    margin-top:1rem;
+}
 
 #bbq-1 .food-image{
     background-image:url(../images/pork.jpg);
@@ -832,16 +835,11 @@ form > div{
 
     #message-div input{
         width:95%;
+        height:10rem;
     }
 
     #submit{
         width:16rem;
-    }
-}
-
-@media only screen and (max-width:950px){
-    #form-container{
-        margin-top: 4rem;
     }
 }
 
