@@ -15,5 +15,10 @@ Users on the website will be able to learn a little about Korean cuisine and see
   - The active page is underlined as a reference and links have a underline hover effect.
   - On smaller devices, a hamburger button is used to show the links when clicked. This was coded by placing the icon within a label element for a checkbox.
 
-![Navigation Bar](/assets/images/responsive-navigation.png)
-  
+![Navigation Bar](/assets/images/navigation.jpg)
+
+![Responsive Nav Bar](/assets/images/responsive-navigation.png)
+
+![Responsive Nav Bar Clicked](/assets/images/responsive nav clicked.png)
+
+
