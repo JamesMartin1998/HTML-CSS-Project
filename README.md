@@ -13,4 +13,7 @@ Users on the website will be able to learn a little about Korean cuisine and see
   - The bold logo is positioned to the left and acts as a link to easily return to the homepage.
   - Links to other pages are located on the right and include: Menu, Reservation and Contact.
   - The active page is underlined as a reference and links have a underline hover effect.
+  - On smaller devices, a hamburger button is used to show the links when clicked. This was coded by placing the icon within a label element for a checkbox.
+
+![Navigation Bar](/assets/images/responsive-navigation.png)
   
