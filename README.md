@@ -19,6 +19,27 @@ Users on the website will be able to learn a little about Korean cuisine and see
 
 ![Responsive Nav Bar](/assets/images/responsive-navigation.png)
 
-![Responsive Nav Bar Clicked](/assets/images/responsive nav clicked.png)
+![Responsive Nav Bar Clicked](/assets/images/responsive-nav-clicked.png)
 
+- The Main Image Section
+    - Background image of kimchi fried rice instantly shows the type and quality of food available at the restaurant.
+    - The heading 'Your Local Authentic Korean Food' shows the function and aim of the restaurant to users.
+    - The 'Make a Reservation' link is clear and consistent with the color theme and acts to advertise and allow users towards the reservation page.
+
+![Main Image Section](/assets/images/main-section.jpg)
+
+- The About Us Section
+    - This section aims to give an insight into the different foods on offer at the restaurant, as well as prompt users to explore further via links to the menu page.
+    - The heading reinforces the restaurant's aim in terms of food quality.
+    - The alternating image and text layout creates a more interesting design.
+    - Images are used to clearly represent the type and quality of food available.
+    - Text is used to explain more detail about the food, culture and experience at the restaurant.
+
+![Abous Us Section](/assets/images/about-section.png)
+
+- Reviews Section
+    - Title is consistent with the theme and functions to explain that the section contains customer reviews.
+    - Background image is used to illustrate a sense of enjoyment at the restaurant.
+    - Reviews either side create a more interesting design.
+    - Reviews chosen are from different types of customers with varying experience eating Korean food to show customers that the restaurant can be enjoyed by everyone.
 

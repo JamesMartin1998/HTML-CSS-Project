@@ -279,6 +279,7 @@ a.active, nav a:hover{
 
 #review-section{
     clear:both;
+    margin-bottom: 2rem;
 }
 
 #review-section h2{
