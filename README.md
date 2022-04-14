@@ -43,3 +43,8 @@ Users on the website will be able to learn a little about Korean cuisine and see
     - Reviews either side create a more interesting design.
     - Reviews chosen are from different types of customers with varying experience eating Korean food to show customers that the restaurant can be enjoyed by everyone.
 
+- Footer Section
+    - Contains contact information and opening times so they can be easily found by users whilst on any page.
+    - Social media links encourage users to find out more about the restaurant.
+    - Links open in new tabs to provide a good user experience.
+

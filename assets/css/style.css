@@ -458,6 +458,14 @@ footer div{
     box-sizing: border-box;
 }
 
+.footer-contact{
+    width: 55%;
+}
+
+.footer-opening{
+    width: 45%;
+}
+
 #social-container{
     justify-content: center;
     align-items: flex-start;
@@ -494,9 +502,15 @@ footer h3{
     .social-networks{
         flex-direction: column;
     }
-}
 
-@media only screen and (max-width:1050px){
+    .footer-contact{
+        width: 100%;
+    }
+    
+    .footer-opening{
+        width: 100%;
+    }
+
     #info-container{
         flex-direction: column;
     }
