@@ -437,7 +437,7 @@ a.active, nav a:hover{
 footer{
     clear:both;
     flex-direction: row;
-    width:100vw;
+    width:100%;
     font-size: 1rem;
     line-height: 2rem;
     color:white;
