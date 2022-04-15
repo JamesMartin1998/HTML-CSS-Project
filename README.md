@@ -52,5 +52,20 @@ Users on the website will be able to learn a little about Korean cuisine and see
 
 ![Footer Section](/assets/images/footer.jpg)
 
+- Menu Page
+    - The menu page aims to advertise a selection of dishes at the restaurant and raise interest.
+    - The heading explains that a full menu with more dishes is available at the restaurant.
+    - Images were used along with a description to illustrate the quality of food available at its price.
+    - Different sections containing three dishes were used to create an organised display.
+    - Using flexbox, the dishes are arranged in a single column to provide a better user experience on smaller devices.
 
+![Menu Page](/assets/images/menu.png)
+
+- Reservation Page
+    - This page allows users to book a table at the restaurant by completing a form.
+    - Users are required to provide their contact details and select the date, time and number of people attending.
+    - A text area was created so users can send a message or make a special request.
+    - This page is useful as it provides another method to make a reservation, instead of relying on making a telephone booking.
+
+![Reservation Page](/assets/images/form.png)
 
