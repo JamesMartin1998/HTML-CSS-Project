@@ -75,3 +75,17 @@ Users on the website will be able to learn a little about Korean cuisine and see
     - An iframe showing the address was also used to assure customers of the restaurant's location.
 
 ![Contact Page](/assets/images/contact.png)
+
+## Testing
+
+- The website has been tested and works on different browsers: Chrome, Safari, Microsoft Edge.
+- All text can be seen clearly and isn't disrupted by another element.
+- All form inputs are required, except the 'leave message' as intended and the form submit button works.
+- The home page is responsive on all standard screen sizes and functions correctly.
+![Responsive Home Page](/assets/images/responsive.jpg)
+- The menu page is responsive on all standard screen sizes and functions correctly.
+![Responsive Menu Page](/assets/images/responsive-menu.jpg)
+- The reservation page is responsive on all standard screen sizes and functions correctly.
+![Responsive Reservation Page](/assets/images/responsive-reservation.jpg)
+- The contact page is responsive on all standard screen sizes and functions correctly.
+![Responsive Contact Page](/assets/images/responsive-contact.jpg)
