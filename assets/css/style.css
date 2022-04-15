@@ -436,7 +436,6 @@ Review section HTML and CSS was based on code used in Code Institute's Love Runn
     }
 }
 
-
 /* footer 
 Social links code was used from Code Institutes Love Running Project
 */
@@ -513,7 +512,7 @@ footer h3{
     .footer-contact{
         width: 100%;
     }
-    
+        
     .footer-opening{
         width: 100%;
     }
