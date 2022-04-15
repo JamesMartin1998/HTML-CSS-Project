@@ -69,3 +69,9 @@ Users on the website will be able to learn a little about Korean cuisine and see
 
 ![Reservation Page](/assets/images/form.png)
 
+- Contact Page
+    - This page provides the restaurant's address, phone number and email address for customers to contact.
+    - Opening times are also provided so users know when the restaurant can be contacted.
+    - An iframe showing the address was also used to assure customers of the restaurant's location.
+
+![Contact Page](/assets/images/contact.png)
