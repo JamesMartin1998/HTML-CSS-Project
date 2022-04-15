@@ -550,6 +550,17 @@ footer h3{
     width:100vw;
 }
 
+#full-menu{
+    text-align: center;
+    background:gold;
+    display:inline-block;
+    color: #910104;
+    border-radius: 10px;
+    padding:1rem;
+    font-size:2rem;
+    margin:1rem 0.5rem 0 0.5rem;
+}
+
 .food-type-container{
     width:100vw;
     margin-bottom: 1rem;
