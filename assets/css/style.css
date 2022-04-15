@@ -17,7 +17,10 @@ body {
     overflow-x: hidden;
 }
 
-/* Navigation Bar */
+/* Navigation Bar 
+Navigation bar html and css was created following a Youtube tutorial and adapted as necessary 
+(https://www.youtube.com/watch?v=oLgtucwjVII)
+*/
 
 nav {
     background: #910104;
@@ -275,7 +278,9 @@ a.active, nav a:hover{
     }
 }
 
-/* Review section */
+/* Review section
+Review section HTML and CSS was based on code used in Code Institute's Love Running Project but was adapted on using flexbox
+*/
 
 #review-section{
     clear:both;
@@ -432,7 +437,9 @@ a.active, nav a:hover{
 }
 
 
-/* footer */
+/* footer 
+Social links code was used from Code Institutes Love Running Project
+*/
 
 footer{
     clear:both;
