@@ -89,3 +89,47 @@ Users on the website will be able to learn a little about Korean cuisine and see
 ![Responsive Reservation Page](/assets/images/responsive-reservation.jpg)
 - The contact page is responsive on all standard screen sizes and functions correctly.
 ![Responsive Contact Page](/assets/images/responsive-contact.jpg)
+
+## Solved Bugs
+
+- When making the main image section on the home page, the 'Make Reservation' link would center slightly to the left when using "margin 0 auto". This led me to learning flexbox to center and arrange this element, as well as the rest of the website.
+
+![Reservation Link Error](/assets/images/reservation-error.png)
+
+- After fixing the link error, it caused a white area to appear under the navigation bar. This space got bigger on smaller screens and was fixed using overflow:hidden.
+
+![Navigation White Space Error](/assets/images/nav-error.png)
+
+![Navigation White Space Error Mobile](/assets/images/nav-error-mob.png)
+
+- When dividing the review section into three equal columns using floats and margin 0 auto, the right section was being positioned below the others. Again I solved this error by using flexbox.
+
+- On some pages when viewing on smaller devices, a horizontal scroll bar would appear. I solved this problem by a combination of setting overflow-x:hidden and making sure that no elements had an absolute width exceeding the width of the screen.
+
+## Unfixed Bugs
+
+- There are no remaining found bugs.
+
+## Validator Testing
+
+- HTML
+    - Official W3C validator returned no errors.
+- CSS
+    - Official W3C validator returned no errors.
+
+## Lighthouse Testing
+
+![Lighthouse Test](/assets/images/lighthouse.png)
+
+## Credits
+
+- Navigation bar html and css was created following a Youtube tutorial and adapted as necessary 
+(https://www.youtube.com/watch?v=oLgtucwjVII)
+
+- Review section HTML and CSS was based on code used in Code Institute's Love Running Project but was adapted on using flexbox
+
+- Social links code was used from Code Institutes Love Running Project
+
+- Icons used for social links are from Font Awesome
+
+- Images used were taken from Pexels.com and Pixabay.com
