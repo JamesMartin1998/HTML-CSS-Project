@@ -830,6 +830,10 @@ form > div{
     margin-top:2rem;
 }
 
+#map iframe{
+    width:100%;
+}
+
 @media only screen and (max-width:1200px){
     #map{
         margin-top:0;
