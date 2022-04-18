@@ -104,6 +104,8 @@ Users on the website will be able to learn a little about Korean cuisine and see
 
 - When dividing the review section into three equal columns using floats and margin 0 auto, the right section was being positioned below the others. Again I solved this error by using flexbox.
 
+![Review Error](/assets/images/review-error.png)
+
 - On some pages when viewing on smaller devices, a horizontal scroll bar would appear. I solved this problem by a combination of setting overflow-x:hidden and making sure that no elements had an absolute width exceeding the width of the screen.
 
 ## Unfixed Bugs
