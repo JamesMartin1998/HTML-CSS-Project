@@ -123,6 +123,15 @@ Users on the website will be able to learn a little about Korean cuisine and see
 
 ![Lighthouse Test](/assets/images/lighthouse.png)
 
+## Deployment
+
+- The site was deployed to GitHub pages by:
+    - Selecting 'Settings' in the GitHub repository.
+    - From the source section drop-down menu, select the Master Branch.
+    - This will then indicate that the project has been deployed successfully.
+
+The link for this project: https://jamesmartin1998.github.io/HTML-CSS-Project/
+
 ## Credits
 
 - Navigation bar html and css was created following a Youtube tutorial and adapted as necessary 
